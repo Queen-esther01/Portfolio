@@ -1,8 +1,16 @@
-.container {
-  padding: 0 2rem;
+
+
+.small-text{
+  font-size: 0.6em;
+}
+.footer{
+  background: var(--gray);
+}
+.purple-gradient{
+  background: linear-gradient(145.39deg, #642092 0%, #C96A8A 97.04%);
 }
 
-.main {
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -113,4 +121,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
