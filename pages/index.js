@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
+import Projects from '../components/Projects'
 // import style from '../styles/home.module.css'
 
 export default function Home() {
@@ -12,9 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
-      <h1 className="text-3xl underline text-amber-400">
-        Hello world!
-      </h1>
+      <Projects/>
     </Layout>
   )
 }

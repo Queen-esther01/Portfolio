@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 function Layout({ children }) {
     return (
-        <div className="w-full">
-            <div className="mobile-width max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto">
-                <header className="flex py-14">
+        <div className="">
+            <div className="">
+                <header className="flex py-14 mobile-width max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto">
                     <Image className="rounded-lg object-cover" src='/images/esther.jpg' alt='Esther Ejidike' width={41} height={41} />
                     <div className="pl-5">
                         <h2 className='text-white font-semibold'>Esther Ejidike</h2>
@@ -16,7 +16,7 @@ function Layout({ children }) {
                 <main>
                     {children}
                 </main>
-                <footer className='mobile-width footer text-white rounded-lg max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto px-5 py-8 my-14'>
+                <footer className='mobile-width bg-gray text-white rounded-lg max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto px-5 py-8 my-14'>
                     <div className="flex justify-between">
                         <div className="flex justify-between items-center">
                             <p className="mr-2">Get in touch</p>

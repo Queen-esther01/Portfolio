@@ -7,7 +7,7 @@
 .small-text{
   font-size: 0.6em;
 }
-.footer{
+.bg-gray{
   background: var(--gray);
 }
 .purple-gradient{
