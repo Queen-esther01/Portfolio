@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Button from "./Button";
 
 function Hero() {
@@ -17,7 +18,11 @@ function Hero() {
                             creating value.
                         </p>
                         <div className="mt-4">
-                            <Button>Get in touch</Button>
+                            <Button>
+                                <Link href='mailto:ejidikeesther@gmail.com'>
+                                    Get in touch
+                                </Link>
+                            </Button>
                             <span className="px-8 text-sm">View Work</span>
                         </div>
                     </div>
