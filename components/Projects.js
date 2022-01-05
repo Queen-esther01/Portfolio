@@ -19,7 +19,7 @@ function Projects() {
                         </Button>
                     </div>
                     <div className="m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
-                        <Image className="object-contain" src='/images/levare.svg' alt='Levare - Developer(Esther)'  width={400} height={400} />
+                        <Image priority className="object-contain" src='/images/levare.svg' alt='Levare - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
                 <div className="my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between">
@@ -34,7 +34,7 @@ function Projects() {
                         </Button>
                     </div>
                     <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
-                        <Image className="object-contain" src='/images/InterAd.svg' alt='InterAd - Developer(Esther)'  width={400} height={400} />
+                        <Image priority className="object-contain" src='/images/InterAd.svg' alt='InterAd - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
                 <div className="my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between">
@@ -49,7 +49,7 @@ function Projects() {
                         </Button>
                     </div>
                     <div className="m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
-                        <Image className="object-contain" src='/images/domestireg.svg' alt='Domestireg - Developer(Esther)'  width={400} height={400} />
+                        <Image priority className="object-contain" src='/images/domestireg.svg' alt='Domestireg - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
                 <div className="my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between">
@@ -64,7 +64,7 @@ function Projects() {
                         </Button>
                     </div>
                     <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
-                        <Image className="object-contain" src='/images/primecourts.svg' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
+                        <Image priority className="object-contain" src='/images/primecourts.svg' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
             </div>
