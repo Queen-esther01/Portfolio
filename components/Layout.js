@@ -16,10 +16,10 @@ function Layout({ children }) {
                 <main>
                     {children}
                 </main>
-                <footer className='mobile-width bg-gray text-white rounded-lg max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto px-5 py-8 my-14'>
+                <footer className='mobile-width bg-gray text-white rounded-lg max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl m-auto px-5 lg:px-20 py-8 lg:py-20 my-14'>
                     <div className="flex justify-between">
                         <div className="flex justify-between items-center">
-                            <p className="mr-2">Get in touch</p>
+                            <p className="mr-2 lg:text-4xl">Get in touch</p>
                             <Image className=" object-contain object-right" src='/images/arrow.png' alt='arrow' width={40} height={10} />
                         </div>
                         <Button>
