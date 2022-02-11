@@ -43,7 +43,7 @@ function Projects() {
                         <p className="my-5">Domestireg is a background, medical, criminal vetting and fact finding service created to assist in vetting domestic staff, to know exactly who they are and to ensure the safety of their clients.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, react-bootstrap,<br/> Redux (Redux toolkit), Yup, React-hook-form, Swiper, dayjs, Netlify, Flutterwave gateway.</p>
                         <Button>
-                            <Link href='https://domestireg.com' >
+                            <Link href='https://domestireg.netlify.app' >
                                 Visit Website
                             </Link>
                         </Button>
