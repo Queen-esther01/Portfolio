@@ -39,6 +39,7 @@ function Layout({ children }) {
                         </Button>
                     </div>
                 </footer>
+                <p className="text-white text-center text-sm mb-3">Built with ❤ using Nextjs & TailwindCSS</p>
             </div>
         </div>
     );
