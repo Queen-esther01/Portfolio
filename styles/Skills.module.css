@@ -1,0 +1,15 @@
+.skill-background{
+    /* background: linear-gradient(162.46deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%); */
+    /* backdrop-filter: blur(40px); */
+    border-width: 1px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.25);
+    border-top-color: rgba(255, 255, 255, 0.25);
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+    border-right-color: rgba(255, 255, 255, 0.25);
+    /* border-image-source: linear-gradient(162.46deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 61.56%, rgba(255, 255, 255, 0.5) 100%); */
+    cursor: pointer;
+}
+.skill-background:hover{
+    background: linear-gradient(162.46deg, rgba(255, 255, 255, 0.281) 0%, rgba(255, 255, 255, 0.096) 100%);
+}

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('../styles/Home.module.css');
+@import url('../styles/Skills.module.css');
 
 html,
 body {
