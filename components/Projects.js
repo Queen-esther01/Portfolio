@@ -67,6 +67,37 @@ function Projects() {
                         <Image priority className="object-contain" src='/images/primecourts.svg' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
+                <h2 className="lg:max-w-4xl lg:m-auto text-sm">CREATED JUST FOR FUN</h2>
+                <div className="md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between">
+                    <div className="my-5 sm:w-2/4 ">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">The movies</h2>
+                        <p className="my-5">The movies is a movie app that provides detailed information on movies (cast and plot). It also allows users search all movies by genre and search option.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Redux,<br/> MovieDB API, TailwindCSS etc</p>
+                        <Button>
+                            <Link href='https://themoviesapp.vercel.app/' >
+                                Visit Website
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
+                        <Image priority className="object-contain" src='/images/themovies.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
+                    </div>
+                </div>
+                <div className="my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row-reverse md:justify-between lg:justify-between">
+                    <div className="my-5 sm:w-2/4 ">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Random Quotes</h2>
+                        <p className="my-5">A very simple app created under Freecodecamp.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, Redux,<br/> Quotes API, react-particles, TailwindCSS etc</p>
+                        <Button>
+                            <Link href='https://randomquotesproject.vercel.app/' >
+                                Visit Website
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
+                        <Image priority className="object-contain" src='/images/randomquotes.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
+                    </div>
+                </div>
             </div>
         </div>
     );

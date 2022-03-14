@@ -17,7 +17,8 @@ body {
 
 :root{
   --dark: #070B0E;
-  --gray: #333333;
+  --gray: #e0e0e01a;
+  /* --gray: #333333; */
 }
 
 a {

@@ -17,13 +17,17 @@ const Skills = () => {
                         <Image className="object-cover object-center" priority src='/images/html-5.png' alt='HTML5' width={50} height={50} />
                         <h2 className="text-white font-semibold pt-3">HTML</h2>
                     </div>
-                    <div className="skill-background rounded-lg py-10 text-center">
+                    <div className="skill-background rounded-lg py-10 sm:col-span-2 text-center">
                         <Image className="object-cover object-center" priority src='/images/css-3.png' alt='CSS3' width={50} height={50} />
                         <h2 className="text-white font-semibold pt-3">CSS / SCSS / SASS</h2>
                     </div>
                     <div className="skill-background rounded-lg py-10 text-center">
                         <Image className="object-cover object-center" priority src='/images/js.png' alt='javascript' width={50} height={50} />
                         <h2 className="text-white font-semibold pt-3">JavaScript</h2>
+                    </div>
+                    <div className="skill-background rounded-lg py-10 text-center">
+                        <Image className="object-cover object-center" priority src='/images/typescript.png' alt='typescript' width={50} height={50} />
+                        <h2 className="text-white font-semibold pt-3">TypeScript</h2>
                     </div>
                     <div className="skill-background rounded-lg py-10 text-center">
                         <Image className="object-cover object-center" priority src='/images/react.png' alt='reactjs' width={50} height={50} />
@@ -34,10 +38,14 @@ const Skills = () => {
                         <h2 className="text-white font-semibold pt-3">Redux (Toolkit)</h2>
                     </div>
                     <div className="skill-background rounded-lg py-10 sm:col-span-2 text-center">
+                        <Image className="object-cover object-center" priority src='/images/jest.png' alt='jest' width={50} height={50} />
+                        <h2 className="text-white font-semibold pt-3">Jest (Testing)</h2>
+                    </div>
+                    <div className="skill-background rounded-lg py-10 sm:col-span-2 text-center">
                         <Image className="object-cover object-center" priority src='/images/nextjs.png' alt='nextjs' width={100} height={50} />
                         <h2 className="text-white font-semibold pt-3">Nextjs</h2>
                     </div>
-                    <div className="skill-background rounded-lg py-10 sm:col-span-2 text-center">
+                    <div className="skill-background rounded-lg py-10 text-center">
                         <Image className="object-cover object-center" priority src='/images/wordpress.png' alt='nextjs' width={50} height={50} />
                         <h2 className="text-white font-semibold pt-3">WordPress</h2>
                     </div>
@@ -53,7 +61,7 @@ const Skills = () => {
                         <Image className="object-cover object-center" priority src='/images/github-1.png' alt='nextjs' width={50} height={50} />
                         <h2 className="text-white font-semibold pt-3">Git & Github</h2>
                     </div>
-                    <div className="skill-background rounded-lg py-10 text-center">
+                    <div className="skill-background rounded-lg py-10 sm:col-span-2 text-center">
                         <Image className="object-cover object-center" priority src='/images/framermotion.png' alt='nextjs' width={100} height={50} />
                         <h2 className="text-white font-semibold pt-3">Framer Motion</h2>
                     </div>
@@ -61,7 +69,7 @@ const Skills = () => {
                         <Image className="object-cover object-center" priority src='/images/materialize.png' alt='nextjs' width={50} height={50} />
                         <h2 className="text-white font-semibold pt-3">Materialize</h2>
                     </div>
-                    <div className="skill-background rounded-lg py-10 sm:col-span-2 text-center">
+                    <div className="skill-background rounded-lg py-10 text-center">
                         <Image className="object-cover object-center" priority src='/images/figma.png' alt='nextjs' width={50} height={50} />
                         <h2 className="text-white font-semibold pt-3">Figma</h2>
                     </div>
