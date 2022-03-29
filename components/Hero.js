@@ -28,8 +28,8 @@ function Hero() {
                             </span>
                         </div>
                     </div>
-                    <div className="border-2 rounded-full p-2 hidden sm:block ">
-                        <Image className="object-bottom object-cover" src='/images/memoji.svg' alt='Esther Ejidike - Memoji' width={250} height={250} />
+                    <div className="rounded-full p-2 hidden sm:block ">
+                        <Image className="object-bottom object-cover" src='/images/rocket.png' alt='Esther Ejidike - Memoji' width={250} height={250} />
                     </div>
                 </div>
             </div>
