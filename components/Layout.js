@@ -14,6 +14,9 @@ function Layout({ children }) {
     return (
         <>
             <MessageModal open={open} onClose={()=>setOpen(false)}/>
+            <div onClick={handleOpen} className=" w-16 h-16 fixed bottom-5 z-50 right-5 bg-white rounded-full p-4">
+                <Image src='/images/chat.png' className="object-cover w-full" alt='Esther Ejidike' width={40} height={40} />
+            </div>
             <div className="">
                 <div className="">
                     <header className="flex scroll-smooth justify-between py-14 mobile-width max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto">
