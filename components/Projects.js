@@ -67,7 +67,7 @@ function Projects() {
                         <Image priority className="object-contain" src='/images/primecourts.svg' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <h2 className="lg:max-w-4xl lg:m-auto text-sm">CREATED JUST FOR FUN</h2>
+                <h2 className="lg:max-w-4xl lg:m-auto text-sm">PERSONAL WORK</h2>
                 <div className="md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between">
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">The movies</h2>
@@ -96,6 +96,21 @@ function Projects() {
                     </div>
                     <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
                         <Image priority className="object-contain" src='/images/randomquotes.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
+                    </div>
+                </div>
+                <div className="md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between">
+                    <div className="my-5 sm:w-2/4 ">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Dev.to Clone</h2>
+                        <p className="my-5">This is a clone of the dev.to homepage (a website where developers and engineers publish tech tutorials, articles and other information) showing the first 25 posts.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React & TailwindCSS</p>
+                        <Button>
+                            <Link href='https://norebase-assessment.vercel.app/' >
+                                Visit Website
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
+                        <Image priority className="object-contain" src='/images/norebase.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
             </div>
