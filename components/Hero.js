@@ -13,7 +13,7 @@ function Hero() {
                             based in Lagos, Nigeria
                         </h2>
                         <p className="text-gray-50 text-sm md:text-md lg:text-lg md:leading-6 lg:leading-8 font-extralight mt-5 max-w-xs lg:max-w-md">
-                            I have 2+ years experience in creating frontend software
+                            I have 3+ years of experience in creating frontend software
                             solutions using JavaScript. I enjoy solving problems at work and
                             creating products of value.
                         </p>

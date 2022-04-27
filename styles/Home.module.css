@@ -22,7 +22,7 @@
   }
 }
 .bg-blue{
-  background: #0071E3;
+  background: var(--blue);
 }
 .transparent{
   background: rgba(0, 0, 0, 0.733)

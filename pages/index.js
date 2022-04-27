@@ -4,6 +4,8 @@ import Layout from '../components/Layout'
 import Projects from '../components/Projects'
 // import style from '../styles/home.module.css'
 
+
+
 export default function Home() {
   return (
     <Layout>
