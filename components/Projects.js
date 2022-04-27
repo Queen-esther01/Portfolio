@@ -230,6 +230,7 @@ function Projects() {
                                 Visit Website
                             </Link>
                         </Button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                         <Button>
                             <Link href='https://raw.githubusercontent.com/Queen-esther01/fe-intern-test/master/design/web.png' >
                                 Visit Image Source
