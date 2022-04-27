@@ -37,17 +37,17 @@ function Hero() {
                 <h3 className="text-sm">Socials</h3>
                 <div className="my-5 flex">
                     <div className="cursor-pointer bg-gray p-2 pb-1 rounded-lg mr-3">
-                        <Link href={'https://www.linkedin.com/in/ejidike-esther-0a017a185/'}>
+                        <Link passHref href={'https://www.linkedin.com/in/ejidike-esther-0a017a185/'}>
                             <Image className="object-cover object-center" src='/images/linkedin.png' alt='Esther Ejidike - Github' width={25} height={20} />
                         </Link>
                     </div>
                     <div className="cursor-pointer bg-gray p-2 pb-1 rounded-lg mr-3">
-                        <Link href={'https://github.com/Queen-esther01'}>
+                        <Link passHref href={'https://github.com/Queen-esther01'}>
                             <Image className="object-contain object-top" src='/images/github.png' alt='Esther Ejidike - Github' width={25} height={20} />
                         </Link>
                     </div>
                     <div className="cursor-pointer bg-gray p-2 pb-1 rounded-lg">
-                        <Link href={'https://lady_catheryn.hashnode.dev/'}>
+                        <Link passHref href={'https://lady_catheryn.hashnode.dev/'}>
                             <Image className="object-contain object-center" src='/images/hashnode.png' alt='Esther Ejidike - Github' width={25} height={20} />
                         </Link>
                     </div>

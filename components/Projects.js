@@ -163,7 +163,7 @@ function Projects() {
                 <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Drum Machine</h2>
-                        <p className="my-5">The drum machine app emits different drum sounds based on clicked keypads. It includes toggles to either switch drum on and off or switch from drum to piano sounds. The keypads are can also be triggered by their respective keys on the keyboard. e.g open app and click letter 'w' on keyboard.</p>
+                        <p className="my-5">The drum machine app emits different drum sounds based on clicked keypads. It includes toggles to either switch drum on and off or switch from drum to piano sounds. The keypads are can also be triggered by their respective keys on the keyboard. e.g open app and click letter &apos;w&apos; on keyboard.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, <br/> audio api, TailwindCSS etc</p>
                         <Button>
                             <Link href='https://drummachine01.vercel.app/' >
