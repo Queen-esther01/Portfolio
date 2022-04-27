@@ -163,7 +163,7 @@ function Projects() {
                 <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Drum Machine</h2>
-                        <p className="my-5">The drum machine app emits different drum sounds based on clicked keypads. It includes toggles to either switch drum on and off or switch from drum to piano sounds. The keypads are can also be triggered by their respective keys on the keyboard. e.g open app and click letter &apos;w&apos; on keyboard.</p>
+                        <p className="my-5">The drum machine app emits different drum sounds based on clicked keypads. It includes toggles to either switch drum on and off or switch from drum to piano sounds. The keypads can also be triggered by their respective keys on the keyboard. e.g open app and click letter &apos;w&apos; on keyboard.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, <br/> audio api, TailwindCSS etc</p>
                         <Button>
                             <Link href='https://drummachine01.vercel.app/' >
@@ -178,7 +178,7 @@ function Projects() {
                 <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Random Quotes</h2>
-                        <p className="my-5">A simple app that generated random quotes from random authors.</p>
+                        <p className="my-5">A simple app that generates random quotes from random authors.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, Redux,<br/> Quotes API, react-particles, TailwindCSS etc</p>
                         <Button>
                             <Link href='https://randomquotesproject.vercel.app/' >
@@ -193,7 +193,7 @@ function Projects() {
                 <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Markdown Previewer</h2>
-                        <p className="my-5">A simple app that parse markdown text in realtime.</p>
+                        <p className="my-5">A simple app that parses markdown text in realtime.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, markdown-parser,<br/> styled-components etc</p>
                         <Button>
                             <Link href='https://markdownpreviewer01.netlify.app/' >
@@ -223,7 +223,7 @@ function Projects() {
                 <div className={`${category === 'Assessments' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Risevest Assessment</h2>
-                        <p className="my-5">A clone created for an assessment test at risevest for a frontend developer position</p>
+                        <p className="my-5">A clone created as an assessment test at risevest for a frontend developer position</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React & TailwindCSS</p>
                         <Button>
                             <Link href='https://risevesttest.netlify.app/' >
