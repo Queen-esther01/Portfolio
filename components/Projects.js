@@ -145,7 +145,7 @@ function Projects() {
                         <Image priority className="object-contain" src='/images/strengthbar.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <div className={`${category === 'Personal' ? 'block' : 'hidden'} md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">The movies</h2>
                         <p className="my-5">The movies is a movie app that provides detailed information on movies (cast and plot). It also allows users search all movies by genre and search option.</p>
@@ -220,7 +220,7 @@ function Projects() {
                         <Image priority className="object-contain" src='/images/norebase.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <div className={`${category === 'Assessments' ? 'block' : 'hidden'} md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Assessments' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Risevest Assessment</h2>
                         <p className="my-5">A clone created for an assessment test at risevest for a frontend developer position</p>
