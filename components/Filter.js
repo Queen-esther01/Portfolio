@@ -15,7 +15,7 @@ function Filter({ saveCategory }) {
 
     return (
         <>
-            <div className="flex items-center gap-5 lg:max-w-4xl lg:m-auto py-10">
+            <div className="bg-dark flex items-center gap-5 lg:max-w-4xl lg:m-auto py-10 sticky top-0 z-50">
                 {
                     categories.map((category) => {
                         return (

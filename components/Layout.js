@@ -24,7 +24,7 @@ function Layout({ children }) {
                             <Image className="rounded-lg object-cover object-top" src='/images/esther.jpg' alt='Esther Ejidike' width={41} height={41} />
                             <div className="pl-5">
                                 <h2 className='text-white font-semibold'>Esther Ejidike</h2>
-                                <p className="small-text text-gray-50 mt-1">FRONTEND DEVELOPER</p>
+                                <p className="small-text text-gray-50 mt-1">FRONTEND ENGINEER</p>
                             </div>
                         </div>
                         <ul className="text-white flex">

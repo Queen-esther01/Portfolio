@@ -8,23 +8,25 @@ function Hero() {
             <div className="purple-gradient rounded-3xl p-6 py-10 md:px-10 lg:px-16 text-white mobile-width max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto">
                 <div className="flex justify-between items-end">
                     <div className="">
-                        <h2 className="text-xl md:text-3xl lg:text-5xl leading-8 md:leading-relaxed lg:leading-relaxed md:font-semibold">Hi! I&apos;m Esther - <br/>
-                            a frontend developer <br/>
+                        <h2 className="text-xl md:text-3xl lg:text-5xl leading-8 md:leading-relaxed lg:leading-relaxed md:font-semibold">
+                            Hi! I'm Esther -
+                            a Frontend Engineer 
                             based in Lagos, Nigeria
                         </h2>
                         <p className="text-gray-50 text-sm md:text-md lg:text-lg md:leading-6 lg:leading-8 font-extralight mt-5 max-w-xs lg:max-w-md">
-                            I have 3+ years of experience in creating frontend software
-                            solutions using JavaScript. I enjoy solving problems at work and
-                            creating products of value.
+                        With over 2 years of experience, I am adept at
+capturing the intersection between development and design through rich
+interactive and responsive applications. I solve business problems through technology and bring my unique perspective to every
+team I become a part of😊.
                         </p>
-                        <div className="mt-4">
-                            <Button>
+                        <div className="mt-10">
+                            <button className='button'>
                                 <Link href='mailto:ejidikeesther@gmail.com'>
                                     Get in touch
                                 </Link>
-                            </Button>
+                            </button>
                             <span className="px-8 text-sm">
-                                <a href='/Ejidike Esther Resume.pdf' download>Download CV</a>
+                                <a href='/Esther-Ejidike-CV.pdf' download>Download CV</a>
                             </span>
                         </div>
                     </div>
