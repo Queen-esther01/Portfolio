@@ -9,7 +9,7 @@ function Hero() {
                 <div className="flex justify-between items-end">
                     <div className="">
                         <h2 className="text-xl md:text-3xl lg:text-5xl leading-8 md:leading-relaxed lg:leading-relaxed md:font-semibold">
-                            Hi! I'm Esther -
+                            Hi! I&apos;m Esther -
                             a Frontend Engineer 
                             based in Lagos, Nigeria
                         </h2>
