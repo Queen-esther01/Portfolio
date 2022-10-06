@@ -26,7 +26,7 @@ team I become a part of😊.
                                 </Link>
                             </button>
                             <span className="px-8 sm:px-4 md:px-8 text-sm">
-                                <a href='/Esther-Ejidike-CV.pdf' download>Download CV</a>
+                                <a href='/Esther-Ejidike-Resume.pdf' download>Download CV</a>
                             </span>
                         </div>
                     </div>

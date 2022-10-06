@@ -196,7 +196,7 @@ function Projects() {
                         <Image priority className="object-contain" src='/images/drummachine.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                {/* <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Random Quotes</h2>
                         <p className="my-5">A simple app that generates random quotes from random authors.</p>
@@ -210,8 +210,8 @@ function Projects() {
                     <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
                         <Image priority className="object-contain" src='/images/randomquotes.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
-                </div>
-                <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row md:justify-between lg:justify-between`}>
+                </div> */}
+                {/* <div className={`${category === 'Personal' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Markdown Previewer</h2>
                         <p className="my-5">A simple app that parses markdown text in realtime.</p>
@@ -225,7 +225,7 @@ function Projects() {
                     <div className="m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
                         <Image priority className="object-contain" src='/images/markdownpreviewer.png' alt='Markdown previewer'  width={400} height={400} />
                     </div>
-                </div>
+                </div> */}
                 <div className={`${category === 'Assessments' ? 'block' : 'hidden'} md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Dev.to Clone</h2>
