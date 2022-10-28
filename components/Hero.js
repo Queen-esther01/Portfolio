@@ -14,7 +14,7 @@ function Hero() {
                             - living in Lagos, Nigeria
                         </div>
                         <p className="text-gray-50 text-sm md:text-md lg:text-lg md:leading-6 lg:leading-8 font-extralight mt-5 max-w-xs lg:max-w-md">
-                        With over 2 years of experience, I am adept at
+                        With 3 years of experience, I am adept at
 capturing the intersection between development and design through rich
 interactive and responsive applications. I solve business problems through technology and bring my unique perspective to every
 team I become a part of😊.
