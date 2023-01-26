@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <Layout>
             <Head>
-                <title>Esther Ejidike - Frontend Developer</title>
+                <title>Esther Ejidike - Frontend Developer </title>
                 <meta name="description" content="A list of all my skills and current interests" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
