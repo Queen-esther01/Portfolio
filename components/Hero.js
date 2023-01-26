@@ -9,12 +9,11 @@ function Hero() {
                 <div className="flex justify-between items-end">
                     <div className="">
                         <div className="text-xl md: lg:text-4xl leading-8 md:leading-relaxed lg:leading-relaxed md:font-semibold">
-                            Hi! I&apos;m Esther,
-                            a frontend engineer<br/>
-                            - living in Lagos, Nigeria
+                            Hello👋 I&apos;m Esther,
+                            a frontend engineer - living in Lagos, Nigeria
                         </div>
                         <p className="text-gray-50 text-sm md:text-md lg:text-lg md:leading-6 lg:leading-8 font-extralight mt-5 max-w-xs lg:max-w-md">
-                        With over 2 years of experience, I am adept at
+                        With over 3 years of experience, I am adept at
 capturing the intersection between development and design through rich
 interactive and responsive applications. I solve business problems through technology and bring my unique perspective to every
 team I become a part of😊.
@@ -48,7 +47,7 @@ team I become a part of😊.
                     </div>
                     <div className="cursor-pointer bg-gray p-2 pb-1 rounded-lg mr-3">
                         <Link passHref href={'https://github.com/Queen-esther01'}>
-                            <Image className="object-contain object-top" src='/images/github.png' alt='Esther Ejidike - Github' width={25} height={20} />
+                            <Image className="object-contain object-top" src='/images/github.jpg' alt='Esther Ejidike - Github' width={25} height={20} />
                         </Link>
                     </div>
                     <div className="cursor-pointer bg-gray p-2 pb-1 rounded-lg">

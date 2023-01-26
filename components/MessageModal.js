@@ -18,15 +18,15 @@ const MessageModal = ({ open, onClose}) => {
         })
     }
 
-    console.log(input)
+    //console.log(input)
 
     const disableButton = input.name === '' || input.email === '' || input.message === '' ? true : false
-    console.log(disableButton)
+    //console.log(disableButton)
 
     if(!open) return null;
     return (
         <>
-            <div className="h-screen ease-in flex items-center justify-center w-full fixed z-20 transparent ">
+            <div className="h-screen ease-in flex items-center justify-center w-full fixed z-50 transparent ">
                 {/* <div className="fixed inset-0 z-50 overflow-hidden"></div> */}
                 
                 <form onSubmit={handleSubmit} className='rounded-lg p-10 w-96 modal-form relative' name="contact" method="POST" data-netlify="true">
@@ -48,6 +48,7 @@ const MessageModal = ({ open, onClose}) => {
 
                     <textarea onChange={saveInputData} name='message' className="w-full mb-5 p-4 rounded-lg bg-gray-100" placeholder="Your message"></textarea>
                     <ValidationError 
+                        color='red'
                         prefix="Message" 
                         field="message"
                         errors={state.errors}

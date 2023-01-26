@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Button from "./Button";
 import Link from 'next/link'
-import MessageModal from "./MessageModal";
 import { useState } from "react";
+import dynamic from 'next/dynamic'
+const MessageModal = dynamic(() => import('./MessageModal'))
 
 function Layout({ children }) {
     const [open, setOpen] = useState(false);
@@ -14,7 +15,7 @@ function Layout({ children }) {
     return (
         <>
             <MessageModal open={open} onClose={()=>setOpen(false)}/>
-            <div onClick={handleOpen} className=" w-16 h-16 fixed bottom-5 z-50 right-5 bg-white rounded-full p-4">
+            <div onClick={handleOpen} className="cursor-pointer w-16 h-16 fixed bottom-5 z-50 right-5 bg-white rounded-full p-4">
                 <Image src='/images/chat.png' className="object-cover w-full" alt='Esther Ejidike' width={40} height={40} />
             </div>
             <div className="">
@@ -32,7 +33,7 @@ function Layout({ children }) {
                                 <Link href='/'>Home</Link>
                             </li>
                             <li className="active:underline active:decoration-blue-700 active:decoration-4">
-                                <Link href='/skills'>Skills</Link>
+                                <Link prefetch={false} href='/skills'>Skills</Link>
                             </li>
                         </ul>
                     </header>
@@ -45,9 +46,9 @@ function Layout({ children }) {
                                 <p className="mr-2 lg:text-4xl">Get in touch</p>
                                 <Image className=" object-contain object-right" src='/images/arrow.png' alt='arrow' width={40} height={10} />
                             </div>
-                            <button onClick={handleOpen}>
+                            <Button onClick={handleOpen}>
                                 send a message
-                            </button>
+                            </Button>
                         </div>
                     </footer>
                     <p className="text-white text-center text-sm mb-3">Built with ❤ using Nextjs & TailwindCSS</p>
