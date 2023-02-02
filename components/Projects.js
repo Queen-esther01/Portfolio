@@ -118,7 +118,7 @@ function Projects() {
                         <p className="my-5">My store is an e-commerce web application leveraging the fakestore API on a graphql-server on the server side and apollo-client on the client side. It features displaying products by categories, displaying single products, adding and deleting to cart using Reactive variables.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, graphql, <br/> apollo-client, Tailwind etc</p>
                         <Button>
-                            <Link href='https://mystore-graphql-client.vercel.app/' >
+                            <Link href='https://mystore-graphql-client.onrender.app/' >
                                 View App
                             </Link>
                         </Button>
