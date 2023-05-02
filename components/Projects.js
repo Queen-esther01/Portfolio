@@ -8,7 +8,7 @@ function Projects() {
     const [category, setcategory] = react.useState('Professional');
     
     const getCurrentCategory = (category) => {
-        console.log(category)
+        // console.log(category)
         setcategory(category)
     }
 
@@ -36,7 +36,23 @@ function Projects() {
                         </div>
                     ))
                 } */}
-                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                    <div className="my-5 sm:w-2/4 order-2 md:order-1">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Anon</h2>
+                        <p className="my-5">Anon is an anonymous messaging app that aims to provide a platform where individuals can freely express themselves without fear of judgement or compromising their identity.</p>
+                        <p>Test account: priceless (username), 654321 (password)</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React + Vite, Typescript, Nodejs, MongoDB etc</p>
+                        <Button>
+                            <Link href='https://anon-app.netlify.app' >
+                                Visit App
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
+                        <Image className="object-contain" src='/images/anon-app-image.png' alt='InterAd - Developer(Esther)'  width={400} height={400} />
+                    </div>
+                </div>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Levare</h2>
                         <p className="my-5">Levare is a new upcoming financial technology company that provides financial solutions to individuals.</p>
@@ -51,7 +67,7 @@ function Projects() {
                         <Image className="object-contain" src='/images/levare.svg' alt='Levare - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">InterAd</h2>
                         <p className="my-5">InterAd is an online engagement and marketing portal which businesses can use to create incentivised digital promotions with the aim of attracting more customers beyond the usual circle and also gather valuable information for business decisions.</p>
@@ -66,7 +82,7 @@ function Projects() {
                         <Image className="object-contain" src='/images/InterAd.svg' alt='InterAd - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Domestireg</h2>
                         <p className="my-5">Domestireg is a background, medical, criminal vetting and fact finding service created to assist in vetting domestic staff, to know exactly who they are and to ensure the safety of their clients.</p>
@@ -112,9 +128,9 @@ function Projects() {
                     </div>
                 </div> */}
                 {/* <h2 className="lg:max-w-4xl lg:m-auto text-sm">PERSONAL WORK</h2> */}
-                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
-                        <h2 className="text-3xl font-semibold lg:text-5xl">E-Commerce App</h2>
+                        <h2 className="text-3xl font-semibold lg:text-5xl">My Store</h2>
                         <p className="my-5">My store is an e-commerce web application leveraging the fakestore API on a graphql-server on the server side and apollo-client on the client side. It features displaying products by categories, displaying single products, adding and deleting to cart using Reactive variables.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, graphql, <br/> apollo-client, Tailwind etc</p>
                         <Button>
@@ -133,7 +149,7 @@ function Projects() {
                         <Image className="object-contain" src='/images/mystore.png' alt='mystore - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">React Npm Package</h2>
                         <p className="my-5">This package checks the strength of a password by checking against these factors: 8 characters, 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character. It also exposes a function that returns results based on password inputs.</p>
@@ -154,7 +170,7 @@ function Projects() {
                         <Image className="object-contain" src='/images/strengthbar.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
-                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">The movies</h2>
                         <p className="my-5">The movies is a movie app that provides detailed information on movies (cast and plot). It also allows users search all movies by genre and search option.</p>
@@ -214,7 +230,7 @@ function Projects() {
                         <Image className="object-contain" src='/images/markdownpreviewer.png' alt='Markdown previewer'  width={400} height={400} />
                     </div>
                 </div> */}
-                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Dev.to Clone</h2>
                         <p className="my-5">This is a clone of the dev.to homepage (a website where developers and engineers publish tech tutorials, articles and other information) showing the first 25 posts.</p>
