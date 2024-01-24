@@ -39,7 +39,7 @@ function Projects() {
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Anon</h2>
-                        <p className="my-5">A beautiful anonymous messaging platform, crafted with React, Vite, and TypeScript, fueled by the dynamic duo of Node.js and MongoDB. This innovative platform enables users to effortlessly create fully anonymous accounts, facilitating logins to share messages. Users have the flexibility to choose between public or private accounts and personalize their experience by changing the app's theme at their discretion.</p>
+                        <p className="my-5">A beautiful anonymous messaging platform, crafted with React, Vite, and TypeScript, fueled by the dynamic duo of Node.js and MongoDB. This innovative platform enables users to effortlessly create fully anonymous accounts, facilitating logins to share messages. Users have the flexibility to choose between public or private accounts and personalize their experience by changing the app&apos;s theme at their discretion.</p>
                         <p>Test account: priceless (username), 654321 (password) (Login takes some time as I am using Render free plan)</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React + Vite, Typescript, Nodejs, MongoDB, Express Sentry, Firebase, Novu</p>
                         <Button>
@@ -55,7 +55,7 @@ function Projects() {
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Noogle</h2>
-                        <p className="my-5">This bespoke search engine is an ingenious extension of Google's renowned search capabilities. With a generous search quota of 10,000 requests per day and the ability to search in multiple languages with results intelligently cached for enhanced performance.</p>
+                        <p className="my-5">This bespoke search engine is an ingenious extension of Google&apos;s renowned search capabilities. With a generous search quota of 10,000 requests per day and the ability to search in multiple languages with results intelligently cached for enhanced performance.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, Tailwind,<br/> GCP.</p>
                         <Button>
                             <Link href='https://x-search-engine.vercel.app/' target='_blank' >
