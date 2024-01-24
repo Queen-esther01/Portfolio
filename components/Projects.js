@@ -39,11 +39,11 @@ function Projects() {
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Anon</h2>
-                        <p className="my-5">Anon is an anonymous messaging app that aims to provide a platform where individuals can freely express themselves without fear of judgement or compromising their identity.</p>
-                        <p>Test account: priceless (username), 654321 (password)</p>
-                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React + Vite, Typescript, Nodejs, MongoDB etc</p>
+                        <p className="my-5">A beautiful anonymous messaging platform, crafted with React, Vite, and TypeScript, fueled by the dynamic duo of Node.js and MongoDB. This innovative platform enables users to effortlessly create fully anonymous accounts, facilitating logins to share messages. Users have the flexibility to choose between public or private accounts and personalize their experience by changing the app's theme at their discretion.</p>
+                        <p>Test account: priceless (username), 654321 (password) (Login takes some time as I am using Render free plan)</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React + Vite, Typescript, Nodejs, MongoDB, Express Sentry, Firebase, Novu</p>
                         <Button>
-                            <Link href='https://anon-app.netlify.app' >
+                            <Link href='https://anon-app.netlify.app' target='_blank'>
                                 Visit App
                             </Link>
                         </Button>
@@ -53,6 +53,21 @@ function Projects() {
                     </div>
                 </div>
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
+                    <div className="my-5 sm:w-2/4 order-2 md:order-1">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Noogle</h2>
+                        <p className="my-5">This bespoke search engine is an ingenious extension of Google's renowned search capabilities. With a generous search quota of 10,000 requests per day and the ability to search in multiple languages with results intelligently cached for enhanced performance.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, Tailwind,<br/> GCP.</p>
+                        <Button>
+                            <Link href='https://x-search-engine.vercel.app/' target='_blank' >
+                                Visit App
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="order-1 md:order-2 m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
+                        <Image className="object-contain" src='/images/noogle.png' alt='Noogle - Developer(Esther)'  width={400} height={400} />
+                    </div>
+                </div>
+                {/* <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Levare</h2>
                         <p className="my-5">Levare is a new upcoming financial technology company that provides financial solutions to individuals.</p>
@@ -66,8 +81,23 @@ function Projects() {
                     <div className="order-1 md:order-2 m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
                         <Image className="object-contain" src='/images/levare.svg' alt='Levare - Developer(Esther)'  width={400} height={400} />
                     </div>
-                </div>
+                </div> */}
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                    <div className="my-5 sm:w-2/4 order-2 md:order-1">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Joint Bank Account Smart Contract</h2>
+                        <p className="my-5">This innovative contract project complete with smart contract tests harnesses the power of Web3 technology to redefine the traditional joint bank account experience. Seamlessly merging the security of smart contracts with the decentralized capabilities of Web3, it offers a robust and transparent framework for collaborative financial management. Users can enjoy a state-of-the-art platform that ensures trust, security, and efficiency in joint account operations, all within the decentralized landscape of Web3.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: Hardhat, Solidity, Ethers<br/></p>
+                        <Button>
+                            <Link href='https://github.com/Queen-esther01/Joint-Bank-Account' target='_blank' >
+                                Visit Repo
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
+                        {/* <Image className="object-contain" src='/images/InterAd.svg' alt='InterAd - Developer(Esther)'  width={400} height={400} /> */}
+                    </div>
+                </div>
+                {/* <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">InterAd</h2>
                         <p className="my-5">InterAd is an online engagement and marketing portal which businesses can use to create incentivised digital promotions with the aim of attracting more customers beyond the usual circle and also gather valuable information for business decisions.</p>
@@ -81,22 +111,29 @@ function Projects() {
                     <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
                         <Image className="object-contain" src='/images/InterAd.svg' alt='InterAd - Developer(Esther)'  width={400} height={400} />
                     </div>
-                </div>
+                </div> */}
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
-                        <h2 className="text-3xl font-semibold lg:text-5xl">Domestireg</h2>
-                        <p className="my-5">Domestireg is a background, medical, criminal vetting and fact finding service created to assist in vetting domestic staff, to know exactly who they are and to ensure the safety of their clients.</p>
-                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, react-bootstrap,<br/> Redux (Redux toolkit), Yup, React-hook-form, Swiper, dayjs, Netlify, Flutterwave gateway.</p>
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Password Strength NPM Package</h2>
+                        <p className="my-5">This React NPM package assesses password strength through criteria such as 8 8-character minimum, at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character. Additionally, it provides a function to deliver results based on the inputted password.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Jest,<br/> CSS, Babel etc</p>
                         <Button>
-                            <Link href='https://domestireg.netlify.app' >
-                                Visit Website
+                            <Link href='https://react-strengthbar.vercel.app/' target='_blank' >
+                                View Demo
+                            </Link>
+                        </Button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <Button>
+                            <Link href='https://www.npmjs.com/package/react-password-strengthbar-ui' target='_blank' >
+                                View Package
                             </Link>
                         </Button>
                     </div>
-                    <div className="order-1 md:order-2 m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
-                        <Image className="object-contain" src='/images/domestireg.svg' alt='Domestireg - Developer(Esther)'  width={400} height={400} />
+                    <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
+                        <Image className="object-contain" src='/images/strengthbar.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
+                
                 {/* <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 ">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Primecourts Estates</h2>
@@ -130,18 +167,18 @@ function Projects() {
                 {/* <h2 className="lg:max-w-4xl lg:m-auto text-sm">PERSONAL WORK</h2> */}
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
-                        <h2 className="text-3xl font-semibold lg:text-5xl">My Store</h2>
-                        <p className="my-5">My store is an e-commerce web application leveraging the fakestore API on a graphql-server on the server side and apollo-client on the client side. It features displaying products by categories, displaying single products, adding and deleting to cart using Reactive variables.</p>
-                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, graphql, <br/> apollo-client, Tailwind etc</p>
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Ecommerce Store</h2>
+                        <p className="my-5">This e-commerce application utilizes the GraphQL server on the backend and Apollo client on the frontend to fuel its functionalities such as adding to cart / removing from cart using InMemoryCache and Reactive Variables. Deployed on Render & Vercel.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, graphql, <br/> apollo-client, Nodejs, Tailwind etc</p>
                         <Button>
-                            <Link href='https://mystore-graphql-client.onrender.com/' >
+                            <Link href='https://mystore-graphql-client-6qqw.vercel.app/' target='_blank'>
                                 View App
                             </Link>
                         </Button>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <Button>
-                            <Link href='https://github.com/Queen-esther01/mystore-graphql-server' >
-                                View Server
+                            <Link href='https://github.com/Queen-esther01/mystore-graphql-server' target='_blank'>
+                                View Server Repo
                             </Link>
                         </Button>
                     </div>
@@ -151,33 +188,27 @@ function Projects() {
                 </div>
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
-                        <h2 className="text-3xl font-semibold lg:text-5xl">React Npm Package</h2>
-                        <p className="my-5">This package checks the strength of a password by checking against these factors: 8 characters, 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character. It also exposes a function that returns results based on password inputs.</p>
-                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Jest,<br/> CSS, Babel etc</p>
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Technical Blog Clone</h2>
+                        <p className="my-5">This is a pixel-perfect emulation of the dev.to homepage – a replica that mirrors every detail of the original, a platform where developers and engineers share tech tutorials, articles, and more. Leveraging my skills in design conversion, I meticulously crafted this clone to showcase the initial 25 posts in this identical clone, offering a snapshot of the latest content from the developer community.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React & TailwindCSS</p>
                         <Button>
-                            <Link href='https://react-strengthbar.vercel.app/' >
-                                View Demo
-                            </Link>
-                        </Button>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <Button>
-                            <Link href='https://www.npmjs.com/package/react-password-strengthbar-ui' >
-                                View Package
+                            <Link href='https://norebase-assessment.vercel.app/' target='_blank'>
+                                Visit Clone
                             </Link>
                         </Button>
                     </div>
                     <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
-                        <Image className="object-contain" src='/images/strengthbar.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
+                        <Image className="object-contain" src='/images/norebase.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">The movies</h2>
-                        <p className="my-5">The movies is a movie app that provides detailed information on movies (cast and plot). It also allows users search all movies by genre and search option.</p>
+                        <p className="my-5">Discover the world of cinema with ease using this web application. Tailored for movie enthusiasts, it allows seamless searches by genre or name, providing a gateway to a vast collection of films. You can learn more about your favorite movies by accessing details such as an extensive cast list with a user-friendly interface.</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Redux,<br/> MovieDB API, TailwindCSS etc</p>
                         <Button>
-                            <Link href='https://themoviesapp.vercel.app/' >
-                                Visit Website
+                            <Link href='https://themoviesapp.vercel.app/' target='_blank'>
+                                Visit App
                             </Link>
                         </Button>
                     </div>
@@ -230,19 +261,20 @@ function Projects() {
                         <Image className="object-contain" src='/images/markdownpreviewer.png' alt='Markdown previewer'  width={400} height={400} />
                     </div>
                 </div> */}
+                
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
-                        <h2 className="text-3xl font-semibold lg:text-5xl">Dev.to Clone</h2>
-                        <p className="my-5">This is a clone of the dev.to homepage (a website where developers and engineers publish tech tutorials, articles and other information) showing the first 25 posts.</p>
-                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React & TailwindCSS</p>
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Domestireg</h2>
+                        <p className="my-5">Domestireg is a background, medical, criminal vetting and fact finding service created to assist in vetting domestic staff, to know exactly who they are and to ensure the safety of their clients.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, react-bootstrap,<br/> Redux (Redux toolkit), Yup, React-hook-form, Swiper, dayjs, Netlify, Flutterwave gateway.</p>
                         <Button>
-                            <Link href='https://norebase-assessment.vercel.app/' >
+                            <Link href='https://domestireg.netlify.app' target='_blank'>
                                 Visit Website
                             </Link>
                         </Button>
                     </div>
-                    <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
-                        <Image className="object-contain" src='/images/norebase.png' alt='Primecourts - Developer(Esther)'  width={400} height={400} />
+                    <div className="order-1 md:order-2 m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
+                        <Image className="object-contain" src='/images/domestireg.svg' alt='Domestireg - Developer(Esther)'  width={400} height={400} />
                     </div>
                 </div>
                 {/* <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
