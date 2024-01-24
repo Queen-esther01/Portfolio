@@ -13,9 +13,9 @@ function Hero() {
                             a frontend engineer - living in Lagos, Nigeria
                         </div>
                         <p className="text-gray-50 text-sm md:text-md lg:text-lg md:leading-6 lg:leading-8 font-extralight mt-5 max-w-xs lg:max-w-md">
-                            With 4 years of experience, I am adaptive to tech, adept at
+                            With 5 years of experience, I am highly adaptive to technology and adept at
                             capturing the intersection between development and business logic with strong attention to details
-                            . I solve business problems through technology and bring my unique perspective to every
+                            . I solve business problems and bring my unique perspective to every
                             team I become a part of😊.
                         </p>
                         <div className="mt-10">
