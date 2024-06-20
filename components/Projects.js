@@ -38,8 +38,41 @@ function Projects() {
                 } */}
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
                     <div className="my-5 sm:w-2/4 order-2 md:order-1">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Azure AI Custom Vision Classifier</h2>
+                        <p className="my-5">
+                            A Nodejs server that enables you train and publish machine learning models, create custom tags for image classification,
+                            make accurate predictions for landmark recognition. This project was a fantastic opportunity to deepen my understanding of AI and machine learning while leveraging Azure's powerful tools.
+                        </p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: Typescript, Nodejs, Azure Custom Vision, Azure App Service</p>
+                        <Button>
+                            <Link href='https://github.com/Queen-esther01/AI-Landmark-Prediction-Server' target='_blank'>
+                                Visit App
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
+                        <iframe src='https://github.com/Queen-esther01/AI-Landmark-Prediction-Server' width={400} height={400} title='classifier Project'/>
+                    </div>
+                </div>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
+                    <div className="my-5 sm:w-2/4 order-2 md:order-1">
+                        <h2 className="text-3xl font-semibold lg:text-5xl">Open AI Training Data Validator</h2>
+                        <p className="my-5">Data formatting and validation for fine tuning on OpenAI is a lot of work and removes focus from the task. This application is designed to take away the grunt work required for preparing training/validation data for finetuning OpenAI with a two way data flow between the imported file and the formatted text.</p>
+                        <p className="text-slate-400 my-5 mb-6">Technologies Used: React, Typescript, Tailwind,<br/></p>
+                        <Button>
+                            <Link href='https://fine-tuning-data-validation-formatting.vercel.app/' target='_blank' >
+                                Visit App
+                            </Link>
+                        </Button>
+                    </div>
+                    <div className="order-1 md:order-2 m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
+                        <iframe src='https://fine-tuning-data-validation-formatting.vercel.app/' width={400} height={400} title='classifier Project'/>
+                    </div>
+                </div>
+                <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-20 md:py-16 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row-reverse md:justify-between lg:justify-between`}>
+                    <div className="my-5 sm:w-2/4 order-2 md:order-1">
                         <h2 className="text-3xl font-semibold lg:text-5xl">Anon</h2>
-                        <p className="my-5">A beautiful anonymous messaging platform, crafted with React, Vite, and TypeScript, fueled by the dynamic duo of Node.js and MongoDB. This innovative platform enables users to effortlessly create fully anonymous accounts, facilitating logins to share messages. Users have the flexibility to choose between public or private accounts and personalize their experience by changing the app&apos;s theme at their discretion.</p>
+                        <p className="my-5">A beautiful anonymous messaging platform that enables users to effortlessly create fully anonymous accounts, facilitating logins to share messages. Users have the flexibility to choose between public or private accounts and personalize their experience by changing the app&apos;s theme at their discretion.</p>
                         <p>Test account: priceless (username), 654321 (password) (Login takes some time as I am using Render free plan)</p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: React + Vite, Typescript, Nodejs, MongoDB, Express Sentry, Firebase, Novu</p>
                         <Button>
@@ -49,7 +82,8 @@ function Projects() {
                         </Button>
                     </div>
                     <div className="order-1 md:order-2 m-auto sm:text-left md:m-0 sm:w-2/4 sm:h-2/4 mt-10">
-                        <Image className="object-contain" src='/images/anon-app-image.png' alt='InterAd - Developer(Esther)'  width={400} height={400} />
+                        <iframe src='https://anon-app.netlify.app/' width={400} height={400} title='Anonymous App Project'/>
+                        {/* <Image className="object-contain" src='/images/anon-app-image.png' alt='InterAd - Developer(Esther)'  width={400} height={400} /> */}
                     </div>
                 </div>
                 <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
@@ -64,7 +98,7 @@ function Projects() {
                         </Button>
                     </div>
                     <div className="order-1 md:order-2 m-auto sm:text-right md:m-0 sm:w-2/4 sm:h-2/4 mt-10 ">
-                        <Image className="object-contain" src='/images/noogle.png' alt='Noogle - Developer(Esther)'  width={400} height={400} />
+                        <iframe src='https://x-search-engine.vercel.app/' width={400} height={400} title='Anonymous App Project'/>
                     </div>
                 </div>
                 {/* <div className={`${category === 'Professional' ? 'block' : 'hidden'} my-10 md:py-10 md:gap-10 lg:m-auto lg:max-w-4xl flex flex-col items-center sm:flex-row md:justify-between lg:justify-between`}>
