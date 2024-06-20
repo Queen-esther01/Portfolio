@@ -41,7 +41,7 @@ function Projects() {
                         <h2 className="text-3xl font-semibold lg:text-5xl">Azure AI Custom Vision Classifier</h2>
                         <p className="my-5">
                             A Nodejs server that enables you train and publish machine learning models, create custom tags for image classification,
-                            make accurate predictions for landmark recognition. This project was a fantastic opportunity to deepen my understanding of AI and machine learning while leveraging Azure's powerful tools.
+                            make accurate predictions for landmark recognition. This project was a fantastic opportunity to deepen my understanding of AI and machine learning while leveraging Azure&apos;s powerful tools.
                         </p>
                         <p className="text-slate-400 my-5 mb-6">Technologies Used: Typescript, Nodejs, Azure Custom Vision, Azure App Service</p>
                         <Button>
