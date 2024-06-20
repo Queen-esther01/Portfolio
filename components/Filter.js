@@ -18,7 +18,7 @@ function Filter({ saveCategory }) {
         <>
             <div className="bg-dark flex justify-between items-center gap-5 lg:max-w-4xl lg:m-auto py-10 sticky top-0 z-20">
                 <h2 className="text-xl">A few of my projects</h2>
-                <Link href='/skills' prefetch={false} className="text-[#3392f2] font-semibold">View my skills</Link>
+                {/* <Link href='/skills' prefetch={false} className="text-[#3392f2] font-semibold">View my skills</Link> */}
                 {/* {
                     categories.map((category) => {
                         return (

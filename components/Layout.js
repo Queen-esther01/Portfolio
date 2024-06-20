@@ -29,12 +29,12 @@ function Layout({ children }) {
                             </div>
                         </div>
                         <ul className="text-white flex">
-                            <li className="mr-5 active:underline active:decoration-blue-700 active:decoration-4">
+                            {/* <li className="mr-5 active:underline active:decoration-blue-700 active:decoration-4">
                                 <Link href='/'>Home</Link>
-                            </li>
-                            <li className="active:underline active:decoration-blue-700 active:decoration-4">
+                            </li> */}
+                            {/* <li className="active:underline active:decoration-blue-700 active:decoration-4">
                                 <Link prefetch={false} href='/skills'>Skills</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </header>
                     <main>
